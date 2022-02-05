@@ -5,7 +5,7 @@ from weather.models import City
 
 # Create your views here.
 def index(request):
-    url= 'http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid=18b3cc6df90337a70f2ed42c0ba62937'
+    url= 'http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid=YOUR ID'
     city = 'Las Vegas'
 
     if request.method == 'POST':
